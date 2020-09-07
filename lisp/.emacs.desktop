@@ -2,33 +2,33 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Aug  7 03:15:07 2020
+;; Created Sun Aug  9 06:43:01 2020
 ;; Desktop file format version 208
 ;; Emacs version 26.3
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24364 31203 206191 427000) (desktop . "208") "abhaas@abhaas-ThinkPad-X1-Extreme" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-DAMA-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (mouse-color . "black") (border-color . "#424242") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#d54e53") (sticky) (environment) (frameset--id . "60C0-82D8-4AFB-070F") (frameset--mini t . t) (height . 58) (width . 104) (modeline . t) (unsplittable) (left + -10) (top . 19) (icon-name) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 960) (pixel-height . 1035) (total-width . 106) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "init-local.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 767) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (24367 19869 95231 557000) (desktop . "208") "abhaas@abhaas-ThinkPad-X1-Extreme" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-DAMA-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (mouse-color . "black") (border-color . "#424242") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#d54e53") (sticky) (environment) (powerline-cache) (frameset--id . "6A2F-3648-3C4F-FAA7") (frameset--mini t . t) (height . 58) (width . 211) (modeline . t) (unsplittable) (left + -1) (top . 26) (icon-name) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1920) (pixel-height . 1035) (total-width . 213) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 957) (pixel-height . 1035) (total-width . 106) (total-height . 57) (normal-height . 1.0) (normal-width . 0.5) (buffer "init-local.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1390) (start . 1))) (leaf (last . t) (pixel-width . 963) (pixel-height . 1035) (total-width . 107) (total-height . 57) (normal-height . 1.0) (normal-width . 0.5) (buffer "anu_course.org" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 7758) (start . 1)))))])
 (setq comint-input-ring nil)
 (setq compile-history nil)
 (setq desktop-missing-file-warning nil)
 (setq dired-regexp-history nil)
 (setq extended-command-history nil)
 (setq face-name-history nil)
-(setq file-name-history '("/home/abhaas/.emacs.d/lisp/" "/home/abhaas/.emacs.d/lisp/init-local.el" "~/Dropbox/CourseNotes/anu_course.org_archive" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Dropbox/CourseNotes/anu_course.org" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Dropbox/CourseNotes/anu_course.org" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Dropbox/CourseNotes/anu_course.org" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Dropbox/CourseNotes/anu_course.org" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_course.org" "~/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.pdf" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.org" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/queue_pack_protected_generic.ads" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/queue_test_protected_generic.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/queue_pack_protected_generic.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/stack_sequential.gpr" "~/.emacs.d/custom.el" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.ads" "~/Dropbox/CourseNotes/anu_doubts.org" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/queue_concurrent.gpr" "~/.emacs.d/custom.el" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Concurrent_Queue/Sources/queue_pack_private.ads" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Concurrent_Queue/queue_sequential.gpr" "~/.emacs.d/custom.el" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue Multip/Sources/queue_pack_private.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue Multip/queue_sequential.gpr" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Dropbox/CourseNotes/anu_course.org" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Dropbox/CourseNotes/anu_course.org" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.ads" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.adb" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/Documents/COMP1100/labs/Lab02/AngleConversion.hs" "~/Documents/COMP1100/labs/Lab01/Area.hs" "~/Documents/COMP1100/labs/Lab02/Area.hs" "~/Dropbox/CourseNotes/anu_course.org" "/home/abhaas/Documents/COMP1100/labs/Lab02/Area.hs" "/home/abhaas/Documents/COMP1100/labs/Lab01/Area.hs" "/home/abhaas/Documents/COMP1100/labs/Lab02/AngleConversion.hs" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.ads" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.adb" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/Dropbox/CourseNotes/anu_course.org" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.ads" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.adb" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/Dropbox/CourseNotes/anu_course.org" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Dropbox/CourseNotes/anu_doubts.org"))
+(setq file-name-history '("/home/abhaas/.emacs.d/lisp/" "~/.emacs.d/lisp/init-local.el" "~/Dropbox/CourseNotes/anu_course.org" "~/Dropbox/CourseNotes/anu.org" "~/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.tex" "~/orgMode/example.org" "~/.emacs.d/custom.el" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/first.tex" "~/.emacs.d/elpa-26.3/yasnippet-20200604.246/yasnippet-autoloads.el" "~/.emacs.d/custom.el" "~/.emacs.d/elpa-26.3/pdf-tools-20200512.1524/pdf-tools-autoloads.el" "~/.emacs.d/custom.el" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/_region_.pdf" "~/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/_region_.tex" "~/orgMode/example.org" "~/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.tex" "~/.emacs.d/custom.el" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.pdf" "~/Documents/COMP3670/Assignment_1/Assignment.pdf" "/home/abhaas/.emacs.d/lisp/init-local.el" "/home/abhaas/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/_region_.tex" "~/orgMode/consistentDoc.org" "~/orgMode/example.org" "~/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.tex" "~/Dropbox/CourseNotes/anu_course.org" "/home/abhaas/.emacs.d/lisp/init-docker.el" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/onlinecourses.org" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu_careers.org" "~/Dropbox/CourseNotes/anu_doubts.org" "~/Dropbox/CourseNotes/anu_course.org" "~/Dropbox/CourseNotes/onlinecourses.org" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/.emacs.d/elpa-26.3/powerline-20200105.2053/powerline-autoloads.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/elpa-26.3/doom-modeline-20200802.1532/doom-modeline-autoloads.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/Dropbox/CourseNotes/anu_course.org" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/Dropbox/CourseNotes/anu_course.org" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "/home/abhaas/first.c" "~/.emacs.d/custom.el" "~/.emacs.d/elpa-26.3/spacemacs-theme-20200808.1859/spacemacs-theme-autoloads.el" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_course.org" "~/Dropbox/CourseNotes/anu.org" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/anu_tasklist.org" "~/Dropbox/CourseNotes/anu.org" "~/.emacs.d/custom.el" "~/.emacs.d/elpa-26.3/monokai-theme-20200416.2001/monokai-theme-autoloads.el" "~/.emacs.d/custom.el" "~/Dropbox/CourseNotes/onlinecourses.org" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-local.el"))
 (setq grep-find-history nil)
 (setq grep-history nil)
-(setq ivy-history '("anu_course.org" "anu_tasklist.org" "org" "/home/abhaas/Dropbox/CourseNotes/anu_course.org" "*Org Agenda(a)*" "stack_pack_generic.ads" "stack_test_generic.adb" "*compilation*" "ads" "stac" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_pack_generic.ads" "notes.org" "queue_test_protected_generic.adb" "adb" "anu_doubts.org" "/home/abhaas/Dropbox/CourseNotes/anu_doubts.org" "queue_pack_protected_generic.adb" "queue_pack_protected_generic.ads" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "Area.hs —£À Lab02" "TODO" "Area.hs —£À Lab01" "has" "*haskell*" "La" "Lab01/" "*haskell*" "AngleConversion.hs" "hs" "stack_pack_generic.adb" "com" "sta" "ad" "*shell*" "stack_test_private" "stack_test_generic" "stack_" "stack" "Stack_Pack_Private" "Stack_Pack" "stack_test_private.adb" "stack_pack_private.ads" "queue_test_private" "Executables/" "Queue_Sequential/" "L" "Lab02/" "means" "queue_test_private.adb" "test" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Sequential/Sources/queue_test_private.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Sequential/Sources/queue_pack_private.adb" "go" "/home/abhaas/go/first.go" "init-local.el" "first.go" "sum_squares.go" "init" "queue_pack_private.adb" "*scratch*" "ini" "lis" "/home/abhaas/.emacs.d/lisp/init-local.el" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Sequential/Sources/queue_pack_private.adb" "Sources" "ada-mode-7.1.3/" "ada" "ada-mode-7.1.3/" "wi" "wisi-3.1.3/" "ada-mode-7.1.3/" "e" "elpa-26.3/"))
+(setq ivy-history '("init" "/home/abhaas/.emacs.d/lisp/init-local.el" "org" "/home/abhaas/Dropbox/CourseNotes/anu.org" "tex" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.tex" "exam" "/home/abhaas/orgMode/example.org" "first.tex" "notes.tex" "yasnippet" "*Help*" "*~/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes output*" "pdf-tools" "example.org" "/home/abhaas/orgMode/example.org" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.tex" "init-" "init-local.el" "pdf" "/home/abhaas/Documents/COMP3670/Assignment_1/Assignment.pdf" "init-local.el" "init.el" "hello" "examp" "/home/abhaas/orgMode/example.org" "*info*" "global-font-lock-mode" "/home/abhaas/Dropbox/CourseNotes/anu_course.org" "init-docker.el" "/home/abhaas/Dropbox/CourseNotes/onlinecourses.org" "ini" "/home/abhaas/.emacs.d/lisp/init-local.el" "/home/abhaas/.emacs.d/lisp/init-local.el" "/home/abhaas/.emacs.d/lisp/init-local.el" "/home/abhaas/.emacs.d/lisp/init-local.el" "adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "el" "/home/abhaas/.emacs.d/lisp/init-local.el" "ad" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "/home/abhaas/.emacs.d/lisp/init-local.el" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "/home/abhaas/.emacs.d/lisp/init-local.el" "stack_test_generic.adb" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "/home/abhaas/.emacs.d/lisp/init-local.el" "/home/abhaas/.emacs.d/init.el" "/home/abhaas/.emacs.d/init.el" "powerline" "doom-modeline" "anu_cou" "/home/abhaas/Dropbox/CourseNotes/anu_course.org" "/home/abhaas/Dropbox/CourseNotes/anu_tasklist.org" "/home/abhaas/Dropbox/CourseNotes/anu_course.org" "/home/abhaas/Dropbox/CourseNotes/anu_tasklist.org" "init-lo" "anu_tasklist.org" "spacemacs-theme" "an" "/home/abhaas/Dropbox/CourseNotes/anu.org" "/home/abhaas/Dropbox/CourseNotes/anu.org" "monokai-theme" "/home/abhaas/Dropbox/CourseNotes/onlinecourses.org" "*Customize Apropos*" "*scratch*" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "*Org Agenda(a)*" "anu.org" "anu_course.org" ".em" ".emacs.d/" "elpa-26.3/" "." "./" "/home/abhaas/Documents/COMP2310/Labs/Lab02/Stack_Sequential/Sources/stack_test_generic.adb" "header.tex" "Assignment.org" "or" "*Org PDF LaTeX Output*" "header.tex" "hea" "*Org PDF LaTeX Output*" "*Org PDF LaTeX Output*" "te" "*Org PDF LaTeX Output*" "Assignment.pdf" "*Org PDF LaTeX Output*" "head" "*Org PDF LaTeX Output*" "assig" "/home/abhaas/Documents/COMP3670/Assignment_1/Assignment.org" "ass" "notes.org" "Assignment.tex" "*Org Preview LaTeX Output*" "dependencies.tex" "Assignment.tex" "anu_doubts.org"))
 (setq minibuffer-history nil)
 (setq org-clock-history nil)
 (setq org-refile-history nil)
-(setq org-tags-history '("COMP2100" "COMP3670" "COMP2310" "COMP1100"))
-(setq query-replace-history '("Mark Release" "Submission" "SCHEDULED" "DEADLINE" "Release" "Submission" "Stack" "Int_Stack" "Stack" "Stack" "Queue" "Pop" "Dequeue" "Stack" "Queue" "Generic" "Private"))
-(setq read-expression-history nil)
+(setq org-tags-history '("Java" "COMP2100" "COMP3670" "COMP2310" "COMP1100"))
+(setq query-replace-history '("Stack" "Int_Stack" "Stack" "Stack" "Queue" "Pop" "Dequeue" "Stack" "Queue" "Generic" "Private"))
+(setq read-expression-history '("(set-face-attribute 'default nil :height 110)" "(set-face-attribute 'default nil :height 120)" "(set-face-attribute 'default nil :height 100)\n" "(set-face-attribute 'default nil :height 110)\n" "(set-face-attribute 'default nil :height 130)\n" "(set-face-attribute 'default nil :height 200)\n" "(set-face-attribute 'default nil :height 100)\n" "(setq org-latex-to-pdf-process '(\"xelatex -interaction nonstopmode %f\" \"xelatex -interaction nonstopmode %f\")) ;; for multiple passes" "(setq org-latex-to-pdf-process \n  '(\"xelatex -interaction nonstopmode %f\"\n     \"xelatex -interaction nonstopmode %f\")) ;; for multiple passes\n"))
 (setq regexp-history nil)
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq search-ring '("ewes" "current" "c" "lsp-mode" "golang" "transpose" "autocomp" "autocomple" "go-mode" "lsp-do" "compan" "work" "ada-"))
-(setq shell-command-history '("git push" "git commit -m \"Improved on areaTriangle function\"" "git add ." "pwd" "git push" "git commit -m \"Added implementation for Heron's formula\"" "git add ."))
+(setq search-ring '("whizzy" "pdflatex" "auc" "aucte" "doom-modeline" "mono" "spaceme" "custom" "menu" "spacemacs" "spacemacs-the" "doom" "ada-mode" "i.e" "postwork" "theor"))
+(setq shell-command-history '("git push master" "git push " "git commit -m \"Added features for AuCTeX\"" "git add ." "(set-face-attribute 'default nil :height 110)" "(set-face-attribute 'default nil :height 100)\n" "(set-face-attribute 'default nil :height 200)\n" "git pull" "git commit -m \"Added notes on todo\"" "git add ." "git push" "git commit -m \"Improved on areaTriangle function\"" "git add ." "pwd" "git push" "git commit -m \"Added implementation for Heron's formula\"" "git add ."))
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 
@@ -37,83 +37,59 @@
   "/home/abhaas/.emacs.d/lisp/init-local.el"
   "init-local.el"
   'emacs-lisp-mode
-  '(eldoc-mode immortal-scratch-mode auto-compile-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode goto-address-prog-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode highlight-quoted-mode aggressive-indent-mode paredit-mode elisp-slime-nav-mode)
-  767
-  '(741 nil)
+  '(eldoc-mode immortal-scratch-mode auto-compile-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode goto-address-prog-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode highlight-quoted-mode aggressive-indent-mode paredit-mode elisp-slime-nav-mode TeX-PDF-mode)
+  1390
+  '(1281 nil)
   nil
   nil
-  '((show-trailing-whitespace . t) (buffer-display-time 24364 31202 69366 984000) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
-  '((mark-ring (87 524 766))))
+  '((show-trailing-whitespace . t) (buffer-display-time 24367 19866 843235 815000) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
+  '((mark-ring (1180 1247 1328 1390))))
 
 (desktop-create-buffer 208
-  "/home/abhaas/Dropbox/CourseNotes/onlinecourses.org"
-  "onlinecourses.org"
+  "/home/abhaas/Dropbox/CourseNotes/anu.org"
+  "anu.org"
   'org-mode
-  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode)
-  173
-  '(nil nil)
+  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode TeX-PDF-mode)
+  800
+  '(135 nil)
   nil
   nil
-  '((show-trailing-whitespace . t) (buffer-display-time 24364 30953 696543 999000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
-  '((mark-ring nil)))
+  '((show-trailing-whitespace . t) (buffer-display-time 24367 19792 897414 616000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (800))))
 
 (desktop-create-buffer 208
   "/home/abhaas/Dropbox/CourseNotes/anu_course.org"
   "anu_course.org"
   'org-mode
-  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode)
-  2610
-  '(5454 nil)
+  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode TeX-PDF-mode)
+  7758
+  '(7743 nil)
   nil
   nil
-  '((show-trailing-whitespace . t) (buffer-display-time 24364 30924 696 545000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
-  '((mark-ring (1119 2675 5569 4706 4621 4621 4621 4621 4621 4621 4160 4160 4160 4160 4160 2189))))
-
-(desktop-create-buffer 208
-  "/home/abhaas/Dropbox/CourseNotes/anu_doubts.org"
-  "anu_doubts.org"
-  'org-mode
-  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode)
-  11643
-  '(11640 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . t) (buffer-display-time) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines . t))
+  '((show-trailing-whitespace . t) (buffer-display-time 24367 19866 843236 523000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/abhaas/Dropbox/CourseNotes/anu_careers.org"
-  "anu_careers.org"
-  'org-mode
-  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode)
-  1
-  '(nil nil)
+  "/home/abhaas/Documents/COMP2310/Labs/Lab02/Queue_Concurrent/Sources/notes.tex"
+  "notes.tex"
+  'latex-mode
+  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode TeX-PDF-mode)
+  699
+  '(683 nil)
   nil
   nil
-  '((show-trailing-whitespace . t) (buffer-display-time) (buffer-file-coding-system . undecided-unix) (truncate-lines . t))
-  '((mark-ring nil)))
+  '((show-trailing-whitespace . t) (indent-tabs-mode) (buffer-display-time 24367 19203 730208 369000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (2613 683 698))))
 
 (desktop-create-buffer 208
-  "/home/abhaas/Dropbox/CourseNotes/anu_tasklist.org"
-  "anu_tasklist.org"
+  "/home/abhaas/orgMode/example.org"
+  "example.org"
   'org-mode
-  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode)
-  2839
-  '(2675 nil)
+  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode TeX-PDF-mode)
+  2684
+  '(14994 nil)
   nil
   nil
-  '((show-trailing-whitespace . t) (buffer-display-time) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/abhaas/Dropbox/CourseNotes/anu_course.org_archive"
-  "anu_course.org_archive"
-  'org-mode
-  '(immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode which-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode anzu-mode dimmer-mode)
-  114
-  '(nil nil)
-  nil
-  nil
-  '((show-trailing-whitespace . t) (buffer-display-time) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
+  '((show-trailing-whitespace . t) (buffer-display-time 24367 19083 647744 60000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (15212 15212 2684))))
 

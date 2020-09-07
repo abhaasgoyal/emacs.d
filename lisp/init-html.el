@@ -14,6 +14,8 @@
 
 (add-auto-mode 'html-mode "\\.\\(jsp\\|tmpl\\)\\'")
 
+(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+(add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
 
 (provide 'init-html)
 ;;; init-html.el ends here

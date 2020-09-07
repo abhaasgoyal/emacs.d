@@ -112,6 +112,7 @@
 (require 'init-docker)
 (require 'init-terraform)
 (require 'init-nix)
+(require 'init-tex)
 (maybe-require-package 'nginx-mode)
 
 (require 'init-paredit)
@@ -144,10 +145,6 @@
   (maybe-require-package 'daemons))
 (maybe-require-package 'dotenv-mode)
 (maybe-require-package 'shfmt)
-
-(when (maybe-require-package 'uptimes)
-  (setq-default uptimes-keep-count 200)
-  (add-hook 'after-init-hook (lambda () (require 'uptimes))))
 
 (when (fboundp 'global-eldoc-mode)
   (add-hook 'after-init-hook 'global-eldoc-mode))
