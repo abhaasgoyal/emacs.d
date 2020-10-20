@@ -3,10 +3,11 @@
 ;;; Code:
 
 
-;;; Pretty print go before saving
-(require 'init-exec-path) ;; Set up $PATH
-(add-to-list 'exec-path "/usr/local/go1.14.6.linux-amd64/bin/")
+;;; Go mode settings
+
+(setq gofmt-command "goimports")
 (add-hook 'before-save-hook 'gofmt-before-save)
+(add-hook 'go-mode-hook 'lsp-deferred)
 
 
 (require 'org-bullets)
@@ -56,9 +57,22 @@
 ;; (setq TeX-view-program-selection '((output-pdf "Okular")))
 ;; (setq TeX-source-correlate-mode t)
 
-(setq org-latex-pdf-process
-      '("latexmk -pdflatex='xelatex' -pdf -bibtex -f %f"))
+;; (setq org-latex-pdf-process
+;;       '("latexmk -pdflatex='xelatex' -pdf -bibtex -f %f"))
 (require 'org-ref)
+
+(require 'company-ctags)
+(with-eval-after-load 'company (company-ctags-auto-setup))
+
+(setq chapel-use-ctags t)
+(require 'chapel-mode)
+(setq chapel-format-on-save t)
+(define-key chapel-mode-map (kbd "<f6>")  'chapel-menu)
+(define-key chapel-mode-map (kbd "C-c C-f") 'chapel-format-buffer)
+
+(require 'ox-reveal)
+(setq org-reveal-root "https://cdn.jsdelivr.net/npm/reveal.js")
+(setq org-reveal-mathjax t)
 
 (provide 'init-local)
 ;;; init-local.el ends here
