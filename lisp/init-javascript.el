@@ -103,6 +103,18 @@
     (add-hook 'skewer-mode-hook
               (lambda () (inferior-js-keys-mode -1)))))
 
+;; ---------------------------------------------------------------------------
+;; Tide support for typescript
+;; ---------------------------------------------------------------------------
+
+(when (maybe-require-package 'tide)
+
+  (defun setup-tide-mode ()
+    "Tide mode settings."
+    (interactive)
+    (tide-setup))
+
+  (add-hook 'typescript-mode-hook #'setup-tide-mode))
 
 
 (when (maybe-require-package 'add-node-modules-path)
