@@ -381,5 +381,33 @@ typical word processor."
      (sqlite . t))))
 
 
+;;; Pretty print org bullets
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+;;; Saving TODO entry automatically when all children are done
+(defun org-summary-todo ( n-done n-not-done)
+  "Switch entry to DONE when all subentries are done, to TODO otherwise."
+  (let (org-log-done org-log-states)    ; turn off logging
+    (org-todo (if (= n-not-done 0) "DONE" "TODO"))))
+
+;;; Org mode extensions
+(add-hook 'org-after-todo-statistics-hook 'org-summary-todo)
+
+;;; Export to pdf's
+(setq org-latex-pdf-process
+      '("latexmk -pdflatex='xelatex' -pdf -bibtex -f %f"))
+(require 'org-ref)
+
+;;; Export to powerpoints
+(maybe-require-package 'ox-reveal)
+(setq org-reveal-root "https://cdn.jsdelivr.net/npm/reveal.js")
+(setq org-reveal-mathjax t)
+
+;;; Tex Integration
+;; (server-start)
+;; (setq TeX-view-program-selection '((output-pdf "Okular")))
+;; (setq TeX-source-correlate-mode t)
+
 (provide 'init-org)
 ;;; init-org.el ends here
