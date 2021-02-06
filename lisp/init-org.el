@@ -382,7 +382,7 @@ typical word processor."
 
 
 ;;; Pretty print org bullets
-(require 'org-bullets)
+(maybe-require-package 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 ;;; Saving TODO entry automatically when all children are done
@@ -397,8 +397,8 @@ typical word processor."
 ;;; Export to pdf's
 (setq org-latex-pdf-process
       '("latexmk -pdflatex='xelatex' -pdf -bibtex -f %f"))
-(require 'org-ref)
 
+(maybe-require-package 'org-ref)
 ;;; Export to powerpoints
 (maybe-require-package 'ox-reveal)
 (setq org-reveal-root "https://cdn.jsdelivr.net/npm/reveal.js")
