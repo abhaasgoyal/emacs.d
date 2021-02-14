@@ -17,6 +17,11 @@
 
 (require-package 'pip-requirements)
 
+(maybe-require-package 'ein)
+(maybe-require-package 'request-deferred)
+(setq ein:output-area-inlined-images t)
+(setq markdown-display-remote-images t)
+
 (when (maybe-require-package 'anaconda-mode)
   (with-eval-after-load 'python
     ;; Anaconda doesn't work on remote servers without some work, so

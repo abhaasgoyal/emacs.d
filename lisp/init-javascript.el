@@ -14,7 +14,11 @@
 
 (with-eval-after-load 'js
   (sanityinc/major-mode-lighter 'js-mode "JS")
-  (sanityinc/major-mode-lighter 'js-jsx-mode "JSX"))
+  (sanityinc/major-mode-lighter 'js-jsx-mode "JSX")
+  ;;; Non default add js2 minor mode for ES6/React
+  (js2-minor-mode 1)
+  (add-hook 'js-mode-hook 'skewer-mode)
+  )
 
 (setq-default js-indent-level 2)
 

@@ -6,6 +6,8 @@
 ;;; Code:
 
 (require-package 'tagedit)
+(maybe-require-package 'emmet-mode)
+
 (with-eval-after-load 'sgml-mode
   (tagedit-add-paredit-like-keybindings)
   (define-key tagedit-mode-map (kbd "M-?") nil)
@@ -16,6 +18,7 @@
 
 (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
 (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
-
+(add-hook 'sgml-mode-hook 'skewer-html-mode)
+(add-hook 'html-mode-hook 'skewer-html-mode)
 (provide 'init-html)
 ;;; init-html.el ends here
