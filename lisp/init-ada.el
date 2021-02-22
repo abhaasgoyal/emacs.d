@@ -2,10 +2,6 @@
 ;;; Commentary:
 ;;; Code:
 
-(maybe-require-package 'ada-mode)
-(maybe-require-package 'lsp-mode)
-
-
 (defun ada-pretty-print ()
   "Run pretty print on ada mode on Saving."
   (when (equal major-mode 'ada-mode)
