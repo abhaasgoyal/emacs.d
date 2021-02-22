@@ -3,8 +3,8 @@
 ;;; Code:
 
 
-(require-package 'powerline)
-(require-package 'company-ctags)
+(maybe-require-package 'powerline)
+(powerline-default-theme)
 
 (provide 'init-preload-local)
 ;;; init-preload-local.el ends here

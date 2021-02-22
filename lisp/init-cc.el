@@ -2,28 +2,46 @@
 ;;; Commentary:
 ;;; Code:
 
-(defun crun ()
-  "Run single file c++ programs after compiling."
-  (interactive)
-  (shell-command (file-name-sans-extension buffer-file-name)))
+(with-eval-after-load  'cc-mode
 
-(defun cpp-template-add ()
-  "Add CPP Template."
-  (interactive)
-  (insert-file-contents "/home/abhaas/Documents/cp/template.cpp")
-  )
+  (setq gdb-many-windows t)
 
-(add-hook 'c++-mode-hook (lambda () (local-set-key (kbd "<f7>") #'crun)))
+  (defun single-file-run ()
+    "Run single file c++ programs after compiling."
+    (interactive)
+    (shell-command (file-name-sans-extension buffer-file-name)))
 
-(add-hook 'c++-mode-hook
-          (lambda () (local-set-key (kbd "C-c C-f") 'cpp-template-add)))
+  (defun cpp-template-add ()
+    "Add CPP Template."
+    (interactive)
+    (insert-file-contents "/home/abhaas/Documents/cp/template.cpp"))
 
-(add-hook 'c++-mode-hook
-          (lambda ()
-            (set (make-local-variable 'compile-command)
-                 (concat "g++ -std=c++11 -O2 -Wall " buffer-file-name " -o "
+  (defun c-single-file-compile ()
+    "Compile only the current file"
+    (interactive)
+    (set (make-local-variable 'compile-command)
+         (concat "gcc -O2 -Wall " buffer-file-name " -o "
+                 (file-name-base buffer-file-name))))
 
-                         (file-name-base buffer-file-name)))))
+  (defun cpp-single-file-compile ()
+    "Compile only the current file"
+    (interactive)
+    (set (make-local-variable 'compile-command)
+         (concat "g++ -std=c++11 -O2 -Wall " buffer-file-name " -o "
+                 (file-name-base buffer-file-name))))
+
+  (defun project-compile ()
+    "Compile only the current file"
+    (interactive)
+    (set (make-local-variable 'compile-command) "make -k "))
+
+  (define-key c-mode-base-map (kbd "<f5>") #'single-file-run)
+  (define-key c-mode-base-map (kbd "<f9>") 'project-compile)
+
+  (define-key c-mode-map (kbd "<f8>") 'c-single-file-compile)
+
+  (define-key c++-mode-map (kbd "<f8>") 'cpp-single-file-compile)
+  (define-key c++-mode-map (kbd "C-c C-f") 'cpp-template-add))
 
 (provide 'init-cc)
 ;;; init-cc.el ends here
