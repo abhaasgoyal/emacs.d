@@ -31,6 +31,8 @@
 
     (defalias 'hindent-mode 'hindent-on-save-mode)
 
+    (setq haskell-font-lock-symbols t)
+
     (reformatter-define ormolu
       :program "ormolu"
       :lighter " Orm"))
